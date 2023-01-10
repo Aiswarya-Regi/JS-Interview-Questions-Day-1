@@ -57,7 +57,7 @@
     <h3 style="color:blue">Q:8)What are callbacks?</h3>
     <p style="color:green">A callback is a function passed as an argument to another function. This technique allows a function to call another function. A callback function can run after another function has finished.</p>
     <p style="color:green">Example of callback:-</p>
-    <pre>
+    <pre style="color:green">
         function greeting(name) {
             alert(`Hello, ${name}`);
           }
@@ -73,8 +73,8 @@
 
     <h3 style="color:blue">Q:9)Explain call(),apply(),and bind() methods.Give an example of call(),apply(),bind().</h3>
     <p style="color:green">call() - Call is a function that helps you change the context of the invoking function.</p>
-    <p>Example of call()</p>
-    <pre>
+    <p style="color:green">Example of call()</p>
+    <pre style="color:green">
         let name = {
             firstname: "Virat",
             lastname: Kohli",
@@ -91,8 +91,8 @@
       printFullName.apply(name2,"Mumbai") 
     </pre>
     <p style="color:green">apply() - Apply is very similar to the call function. The only difference is that in apply you can pass an array as an argument list. </p>
-    <p>Example of apply()</p>
-    <pre>
+    <p style="color:green">Example of apply()</p>
+    <pre style="color:green">
         let name = {
             firstname: "Virat",
             lastname: Kohli",
@@ -109,7 +109,7 @@
       printFullName.apply(name2, ["Mumbai"]) // using array
     
     <p style="color:green">bind() - Bind is a function that helps you create another function that you can execute later with the new context of this that is provided</p>
-        <pre>
+        <pre style="color:green">
 
             let name = {
                 firstname: "Virat",
@@ -132,7 +132,8 @@
 
     <h3 style="color:blue">Q:11)What is spread operator?</h3>
     <p style="color:green">The JavaScript spread operator (...) allows us to quickly copy all or part of an existing array or object into another array or object.</p>
-        <p>Example:-</p>
+        <p style="color:green">Example:-</p>
+        <pre style="color:green">
         function sum(x, y, z) {
             return x + y + z;
           }
@@ -140,10 +141,11 @@
           const numbers = [1, 2, 3];
           
           console.log(sum(...numbers));  //Output :6
+          </pre>
     <h3 style="color:blue">Q:12)What is pure functions?</h3>
     <p style="color:green">A pure function in JavaScript is a function that returns the same result if the same arguments(input) are passed in the function</p>
-        <p>Example:-</p>
-        <pre>
+        <p style="color:green">Example:-</p>
+        <pre style="color:green">
             function operationAdd(a, b){ // A pure function adding two integers passed in it.
                 return a+b;
             }
